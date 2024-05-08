@@ -20,7 +20,9 @@
   .flex {
     display: flex;
   }
-  
+  .Inline-flex{
+    display: inline-flex;
+  }
   .row {
     flex-direction: row;
   }
