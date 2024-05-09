@@ -52,7 +52,8 @@ const Profile = ()=>{
 
             <section>
                 <h2 className="head">Education</h2>
-                <div className="education">         
+                <div className="education">
+                
                 <div className="timeline-items flex">
                     <div className="timeline-item">
                         <div className="timeline-dot"></div>
@@ -116,7 +117,52 @@ const Profile = ()=>{
                 </div>
             </section>
 
-
+            <section className="services-container">
+                <h2 className="head">Services</h2>
+                <div className="services">
+                    <div className="services-content">
+                        <div className="service-box">
+                            <div className="service-info">
+                                <h4>UI Design</h4>
+                                <p>UI Design, short for User Interface Design, focuses on creating visually appealing,
+                                     intuitive, and functional interfaces for software applications, websites, or other digital products. 
+                                     UI designers work on elements such as layout, typography, color schemes, 
+                                    and interactive components to ensure a seamless and engaging user experience.</p>
+                            </div>
+                        </div>
+                        <div className="service-box">
+                            <div className="service-info">
+                                <h4>Frontend Development</h4>
+                                <p> Frontend Development involves building the client-side of web applications or software,
+                                     focusing on the parts that users interact with directly.
+                                      Frontend developers use languages like HTML, CSS, and JavaScript to create responsive, 
+                                      dynamic, and visually appealing interfaces.
+                                     They work closely with UI designers to implement designs and ensure smooth user interactions.</p>
+                            </div>
+                        </div>
+                        <div className="service-box">
+                            <div className="service-info">
+                                <h4>Backend Development</h4>
+                                <p>Backend Development focuses on the server-side of web applications, 
+                                    dealing with databases, server logic, and ensuring smooth communication between the frontend and the server.
+                                     Backend developers use languages like Python, PHP or Node.js, along with frameworks like Django, Laravel or Express.js, 
+                                     to build the logic and functionality that powers the application behind the scenes.</p>
+                            </div>
+                        </div>
+                        <div className="service-box">
+                            <div className="service-info">
+                                <h4>Full Stack Web Developer</h4>
+                                <p>Full Stack Development involves working on both the frontend and backend aspects of web development. 
+                                    Full stack developers have proficiency in both frontend and backend technologies, 
+                                    allowing them to handle all aspects of development, from designing user interfaces to building server logic and databases.
+                                     They have a comprehensive understanding of how the different layers of a web application work together,
+                                     enabling them to create fully functional and robust software solutions.</p>
+                            </div>
+                        </div>
+                 </div>
+                </div>
+             
+            </section>
 
            
 
