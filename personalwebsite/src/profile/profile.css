@@ -1,0 +1,44 @@
+.main-page{
+    width: 100%;
+    height: fit-content;
+}
+.heading{
+    width: 100%;
+    padding: 4rem 12% 4rem;
+    background-color: rgba(0, 0, 0,0.3);
+    justify-content: space-between;
+    z-index: 5;
+}
+
+.logo{
+    font-size: 3rem;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+.navbar .nav-btn{
+    font-size: 1.8rem;
+    background-color: black;
+    color: white;
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+    padding: 10px;
+}
+.navbar .nav-btn:hover{
+    color: #00ffee;
+    border-bottom: 3px solid #00ffee;
+}
+
+.logo >span{
+    color: #00ffee;
+    font-family: sans-serif;
+}
+
