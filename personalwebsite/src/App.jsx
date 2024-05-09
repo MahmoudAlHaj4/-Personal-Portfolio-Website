@@ -1,5 +1,5 @@
 import Profile from "./profile/profile";
-
+import "./styles/utilities.css"
 
 function App() {
   return (
