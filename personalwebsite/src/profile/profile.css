@@ -42,3 +42,188 @@
     font-family: sans-serif;
 }
 
+section {
+    min-height: 100vh;
+    padding: 10rem 12% 10rem;
+}
+
+.home{
+    gap: 5rem;
+    /* background-color: blue; */
+}
+.hero-section{
+    margin: 1rem;
+    /* background-color: red; */
+}
+.hero-section span{
+    color: #00ffee;
+    
+}
+.home-container{
+    align-items: baseline;
+    text-align: left;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+/* span{
+    color: #00ffee;
+} */
+
+.home-container h3{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-size: 3.5rem;
+}
+.home-container h1{
+    font-size: 7rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    line-height: 1;
+}
+
+.home-img{
+    border-radius: 50%;
+}
+
+.home-img img{
+    position: relative;
+    top: 3rem;
+    width: 30vw;
+    border-radius: 50%;
+    box-shadow: 0 0 25px #00ffee;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.home-img img:hover{
+    box-shadow: 0 0 25px #00ffee,
+    0 0 50px #00ffee,
+    0 0 100px #00ffee;
+}
+
+.home-container p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.8;
+    max-width: 1000px;
+}
+.social-icons{
+    margin-bottom: 1rem;
+}
+.social-icons a{
+    width: 4.5rem;
+    height: 4.5rem;
+    background: transparent;
+    border: 2px solid #00ffee;
+    font-size: 2.6rem;
+    padding: 0.8rem;
+    margin: 0.8rem;
+    border-radius: 50%;
+    color: #00ffee;
+    transition: 0.3s ease-in-out;
+}
+.social-icons .icon{
+    font-size: 2.5rem;
+}
+
+.social-icons a:hover{
+    color: white;
+    transform: scale(1.3) translateY(-5px);
+    box-shadow: 0 0 25px #00ffee;
+    background-color: #00ffee;
+}
+.btn{
+
+    padding: 1rem 2.8rem;
+    background-color: #00ffee;
+    box-shadow:  0 0 25px #00ffee;
+    border-radius: 4rem;
+    color: black;
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.btn:hover{
+    transform: scale(1);
+    box-shadow: 0 0 50px #00ffee;
+}
+
+button{
+    margin: 0.5rem;
+}
+
+.btn-group a:nth-of-type(2){
+    background-color: black;
+    color: #00ffee;
+    border: 2px solid #00ffee;
+    box-shadow: 0 0 25px transparent;
+}
+
+.btn-group a:nth-of-type(2):hover{
+    box-shadow: 0 0 25px #00ffee;
+    background-color: #00ffee;
+    color: black;
+}
+
+.text-animation{
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280px;
+}
+
+.text-animation span{
+    position: relative;
+}
+
+.text-animation span::before{
+    content: "Web Developer";
+    color: #00ffee;
+    animation: words 20s infinite;
+}
+
+.text-animation span::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 110%;
+    background-color: #000000;
+    border-left: 2px solid #00ffee;
+    right: -8px;
+    animation: cursor 4s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+    to{
+        border-left: 2px solid #00ffee;
+    }
+}
+
+@keyframes words {
+    0%,20%{
+        content: "Frontend Developer";
+    }
+    21%,40%{
+        content: "Backend Developer";
+    }
+    41%,60%{
+        content: "Web Designer";
+    }
+    61%,80%{
+        content: "UI / UX Designer";
+    }
+    81%,100%{
+        content: "Software Tester";
+    }
+}
+
+@keyframes typing {
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+        width: 0;
+    }
+    5%,20%,25%,40%,45%,60%,65%,80%,85%{
+        width: calc(100% + 8px);
+    }
+}
