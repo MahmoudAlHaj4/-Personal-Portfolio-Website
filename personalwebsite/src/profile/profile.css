@@ -328,3 +328,56 @@ button{
     width: 50px;
 }
 
+.services-content h2{
+    margin-bottom: 5rem;
+    color: white;
+}
+
+.services-content{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+.service-box{
+    box-shadow: 
+    0 0 25px #00ffee;
+    border: 3px solid #00ffee;
+    height: 300px;
+    border-radius: 3rem;
+    border: 5px solid transparent;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.service-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 25px #00ffee;
+}
+
+.service-box.service-info{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-height: 200px;
+    justify-content: left;
+    align-items: baseline;
+    padding: 5rem 5rem;
+}
+
+.service-info h4{
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 2;
+    padding: 10px;
+    text-align: center;
+}
+
+.service-info p{
+    font-size: 1.6rem;
+    font-weight: 600;
+    max-height: 100px;
+    line-height: 1.7;
+    margin: auto;
+    padding: 10px;
+}
