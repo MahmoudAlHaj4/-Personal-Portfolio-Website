@@ -1,8 +1,8 @@
-
+import "../profile.css"
 const Button = ({ label }) =>{
     return (
         <div>
-            <button><span>{ label }</span></button>
+            <button className="nav-btn "><span>{ label }</span></button>
         </div>
     )
 }
