@@ -50,7 +50,71 @@ const Profile = ()=>{
             </div>
             </section>
 
-
+            <section>
+                <h2 className="head">Education</h2>
+                <div className="education">         
+                <div className="timeline-items flex">
+                    <div className="timeline-item">
+                        <div className="timeline-dot"></div>
+                            <div className="timeline-date">
+                                2018
+                            </div>
+                            <div className="timeline-content">
+                                <h3>Youth For Development</h3>
+                                <p>
+                                    Finishing a one-year accounting training provides essential skills in financial management, i
+                                    ncluding reporting, auditing, taxation, and budgeting. Graduates gain hands-on experience with accounting software and real-world case studies, preparing them for roles in various sectors like public accounting, 
+                                    corporate finance, or government agencies.
+</p>
+                            </div>
+                        
+                    </div>
+                    <div className="timeline-item">
+                        <div className="timeline-dot"></div>
+                            <div className="timeline-date">
+                                2020
+                            </div>
+                            <div className="timeline-content">
+                                <h3>BAU</h3>
+                                <p>
+                                    A computer engineer is a professional who designs, develops, and maintains computer hardware and software systems. 
+                                    They possess expertise in areas such as computer architecture, digital electronics,
+                                    programming languages, and operating systems. Computer engineers work on a wide range of projects, 
+                                    from designing microprocessors 
+                                    and circuit boards to developing software applications and algorithms</p>
+                            </div>     
+                    </div>
+                    <div className="timeline-item">
+                        <div className="timeline-dot"></div>
+                            <div className="timeline-date">
+                                2023
+                            </div>
+                            <div className="timeline-content">
+                                <h3>Foundation of Computer Science - SE Factory</h3>
+                                <p>Completed a refresher course for fundamental Computer Science topics 
+                                    that every Software Engineer should be familiar with. These topics include 
+                                    Algorithms and Data Structures, Complexity Analysis, Object-Oriented 
+                                    Programming </p>
+                            </div>     
+                    </div>
+                    <div className="timeline-item">
+                        <div className="timeline-dot"></div>
+                            <div className="timeline-date">
+                                2024
+                            </div>
+                            <div className="timeline-content">
+                                <h3>Full-Stack Web Development - SE Factory</h3>
+                                <p>Intensive full stack web development program covering cloud 
+                                architecture, front-end, back-end development and web application over 
+                                12 weeks of lectures, workshops and projects</p>
+                            </div>     
+                    </div>
+                    <div className="timeline-item">
+                        <div className="timeline-dot"></div>      
+                    </div>
+                </div>
+                </div>
+            </section>
 
 
 
