@@ -8,8 +8,18 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 
 const Profile = ()=>{
     return (
-        <div>
-        hello
+        <div className="main-page flex column">
+            <div className="heading flex ">
+               <p className="logo"><span>Mahmoud</span> Al Haj</p>
+
+                <div className="navbar flex  ">
+                    <a href=""><Button label= "Home" /></a>
+                    <a href=""><Button label= "Education"/></a>
+                    <a href=""><Button label= "Services"/></a>
+                    <a href=""><Button label= "Contact"/></a>
+                    
+                </div>
+            </div>
         </div>
     )
 }
