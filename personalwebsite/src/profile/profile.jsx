@@ -186,6 +186,31 @@ const Profile = ()=>{
                 </form>
             </section>
 
+            <footer className="footer">
+                <div className="social">
+                <a href=""><LinkedInIcon className="icon"/></a>
+                            <a href=""><GitHubIcon className="icon"/></a>
+                            <a href=""><InstagramIcon className="icon"/></a>
+                            <a href=""><XIcon className="icon"/></a>
+                </div>
+                <ul className="list">
+                    <li>
+                        <a href="">FQA</a>
+                    </li>
+                    <li>
+                        <a href="">Services</a>
+                    </li>
+                    <li>
+                        <a href="">About Me</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+                <p className="copyright">
+                    @ Mahmoud Al Haj | All Rights Reserved
+                </p>
+            </footer>
         </div>
     )
 }
